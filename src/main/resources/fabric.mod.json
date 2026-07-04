@@ -1,15 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "miku-plushie",
+	"id": "miku-plushie-balanced",
 	"version": "${version}",
-	"name": "miku plushies",
-	"description": "MIKU!!!",
+	"name": "Miku Plushies (Vanilla Balanced)",
+	"description": "Vanilla-balanced fork of Miku Plushies by 4ny & SuoYukii",
 	"authors": [
-		"4ny", "SuoYukii"
+		"andr3x40", "4ny", "SuoYukii"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/miku-plushies",
-		"sources": "https://github.com/4nyNoob/miku-plushie-mod"
+		"sources": "https://github.com/andr3x40/miku-plushie-mod-balanced"
 	},
 	"license": "GNU GPL V3",
 	"icon": "assets/miku-plushie/icon.png",
