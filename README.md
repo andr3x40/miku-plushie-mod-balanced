@@ -20,4 +20,7 @@ Here are all the differences with the original [Miku Plushies](https://github.co
 ## Compatibility Notes
 This mod works for **Fabric 1.21.1**.
 
-To use this on **NeoForge 1.21.1**, you'll need the [Sinytra Connector](https://github.com/Sinytra/Connector) and [Sinytra Connector Extras](https://github.com/Sinytra/ConnectorExtras) mods.
+To use this on **NeoForge 1.21.1**, you'll need these mods:
+- [Forgified Fabric API](https://github.com/Sinytra/ForgifiedFabricAPI)
+- [Sinytra Connector](https://github.com/Sinytra/Connector)
+- [Sinytra Connector Extras](https://github.com/Sinytra/ConnectorExtras)
