@@ -7,4 +7,5 @@ Go support the original creators of this mod!
 
 ## Differences with the original mod
 - Vocaloid Heart is now non-stackable and is consumed on use
+- When attacking, pets are now 1.2x faster instead of 1.5x
 - Pets' weapons are damaged on attack
