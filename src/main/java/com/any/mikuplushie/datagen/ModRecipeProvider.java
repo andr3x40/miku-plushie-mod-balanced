@@ -37,7 +37,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             .criterion(FabricRecipeProvider.hasItem(Items.WHEAT), FabricRecipeProvider.conditionsFromItem(Items.WHEAT))
             .offerTo(exporter);
 
-        simpleShapeless(exporter, ModItems.AKITA_NERU_PHONE, Items.GOLD_INGOT, Items.REDSTONE, Items.BLACK_STAINED_GLASS);
+        simpleShapeless(exporter, ModItems.AKITA_NERU_PHONE, Items.GOLD_INGOT, Items.REDSTONE, Items.TINTED_GLASS);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.VOCALOID_HEART)
             .pattern("LN")
