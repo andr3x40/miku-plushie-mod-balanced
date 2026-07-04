@@ -15,10 +15,10 @@ public enum PlushToolMaterial implements ToolMaterial {
 
     PLUSH_TOOL_MATERIAL(
         BlockTags.INCORRECT_FOR_WOODEN_TOOL,
-        500,
-        15,
+        401,
+        7,
         0,
-        25,
+        13,
         () -> Ingredient.ofItems(Items.DIAMOND));
 
     private final TagKey<Block> inverseTag;
