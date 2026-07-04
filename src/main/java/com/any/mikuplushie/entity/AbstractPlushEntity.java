@@ -13,6 +13,7 @@ import com.sun.net.httpserver.Authenticator;
 import net.minecraft.block.Blocks;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.FoodComponent;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
@@ -87,7 +88,7 @@ public class AbstractPlushEntity extends TameableEntity implements GeoEntity {
     public void initGoals() {
         this.goalSelector.add(0, new SwimGoal(this));
         this.goalSelector.add(1, new SitGoal(this));
-        this.goalSelector.add(2, new MikuDelayedAttackGoal(this, 1.5F, true));
+        this.goalSelector.add(2, new MikuDelayedAttackGoal(this, 1.2F, true));
         this.goalSelector.add(4, new FollowOwnerGoal(this,1.0F, 5F, 1F));
         this.goalSelector.add(6, new TemptGoal(this, 1.5, Ingredient.ofItems(ModItems.LEEK), false));
         this.goalSelector.add(7, new LookAtEntityGoal(this, AbstractPlushEntity.class, 8F));
@@ -447,6 +448,23 @@ public class AbstractPlushEntity extends TameableEntity implements GeoEntity {
             if (this.getVariantList().get(variation).equals(variant))
                 this.dataTracker.set(this.getVariantDataTracker(), variation);
         }
+    }
+
+    @Override
+    public boolean tryAttack(Entity target) {
+        boolean success = super.tryAttack(target);
+        // if it attacked, damage the item
+        if (success)
+            this.damageHeldItemOnAttack();
+        return success;
+    }
+
+    private void damageHeldItemOnAttack() {
+        ItemStack stack = this.getMainHandStack();
+        // do nothing if it's attacking with bare hands or has a not damageable item
+        if (stack.isEmpty() || !stack.isDamageable()) return;
+        // if it's damageable, damage it
+        stack.damage(1, this, EquipmentSlot.MAINHAND);
     }
 
 }
