@@ -9,10 +9,15 @@ Go support the original creators of this mod!
 Here are all the differences with the original [Miku Plushies](github.com/4nyNoob/miku-plushie-mod) mod.
 
 ### Mechanics
-- Vocaloid Heart is now non-stackable and is consumed on use
-- When attacking, pets are now 1.2x faster instead of 1.5x
+- Vocaloid Heart is non-stackable and is consumed on use
+- When attacking, pets now 1.2x faster instead of 1.5x
 - Pets' weapons are damaged on attack
 
 ### Item Changes
 - Neru's phone now requires a Tinted Glass instead of a Black Stained Glass (she needs privacy, y'know)
-- Teto Pickaxe has a durability of 401 instead of 500
+- Teto Pickaxe has a durability of 401 instead of 500 (objectively a better number)
+
+## Compatibility Notes
+This mod works for **Fabric 1.21.1**.
+
+To use this on **NeoForge 1.21.1**, you'll need the [Sinytra Connector](https://github.com/Sinytra/Connector) and [Sinytra Connector Extras](https://github.com/Sinytra/ConnectorExtras) mods.
