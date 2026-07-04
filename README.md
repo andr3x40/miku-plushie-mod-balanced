@@ -10,7 +10,7 @@ Here are all the differences with the original [Miku Plushies](https://github.co
 
 ### Mechanics
 - Vocaloid Heart is non-stackable and is consumed on use
-- When attacking, pets now 1.2x faster instead of 1.5x
+- When attacking, pets move 1.2x faster instead of 1.5x
 - Pets' weapons are damaged on attack
 
 ### Item Changes
