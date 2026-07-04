@@ -50,7 +50,7 @@ public class ModItems {
         register(new Item(new Item.Settings()), "akita_neru_phone");
 
     public static final Item VOCALOID_HEART =
-        register(new Item(new Item.Settings()), "vocaloid_heart");
+        register(new Item(new Item.Settings().maxCount(1)), "vocaloid_heart");
 
     //REGISTER TETO PICKAXE ITEMS
     public static final Item TETO_PICKAXE = registerPickaxe("teto_pickaxe");

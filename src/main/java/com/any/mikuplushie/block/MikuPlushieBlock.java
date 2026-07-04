@@ -86,6 +86,8 @@ public class MikuPlushieBlock extends Block {
                     );
                 }
             }
+            // use the vocaloid heart
+            player.setStackInHand(hand, ItemStack.EMPTY);
         }
         return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
 	}
