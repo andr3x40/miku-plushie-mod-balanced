@@ -6,6 +6,7 @@ This was done only for Project Twilight Duck (temporary modpack name), a semi-va
 Go support the original creators of this mod!
 
 ## Differences with the original mod
+Here are all the differences with the original [Miku Plushies](github.com/4nyNoob/miku-plushie-mod) mod.
 
 ### Mechanics
 - Vocaloid Heart is now non-stackable and is consumed on use
@@ -14,4 +15,4 @@ Go support the original creators of this mod!
 
 ### Item Changes
 - Neru's phone now requires a Tinted Glass instead of a Black Stained Glass (she needs privacy, y'know)
-- Teto Pickaxe is now a slightly better version of an Iron Pickaxe
+- Teto Pickaxe has a durability of 401 instead of 500
