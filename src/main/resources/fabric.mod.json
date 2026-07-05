@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "miku-plushie-balanced",
+	"id": "miku-plushie",
 	"version": "${version}",
 	"name": "Miku Plushies (Vanilla Balanced)",
 	"description": "Vanilla-balanced fork of Miku Plushies by 4ny & SuoYukii",
